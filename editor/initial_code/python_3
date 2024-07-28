@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def fila_impressao(comandos):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(fila_impressao(["imprimir doc1", "imprimir doc2", "processar", "processar"]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert fila_impressao(["imprimir doc1", "imprimir doc2", "processar", "processar"]) == ["doc1", "doc2"]
+assert fila_impressao(["imprimir doc3", "processar"]) == ["doc3"]
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
